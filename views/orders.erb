@@ -1,0 +1,13 @@
+<% revenue = 0 %>
+<% @shoes.each do |shoe| %>
+  <b>Customer:</b>
+  <p><%= shoe.full_name %></p>
+  <b>Order:</b>
+  <p><%= shoe.quantity %> x <%= shoe.size %></p>
+  <b>Total:</b>
+  <p>£<%= shoe.total %></p>
+  <hr>
+  <% revenue += shoe.total %>
+<% end %>
+<b>Revenue:</b>
+£<%= revenue %>

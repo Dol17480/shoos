@@ -1,0 +1,14 @@
+* {
+  font-family: system, -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "Lucida Grande";
+}
+
+input {
+  margin: 20px;
+
+}
+
+label {
+
+  margin: 20px;
+}
